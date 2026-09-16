@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "instructions": "Only mode=auto answers may be reused automatically. Review sensitive or personal answers manually. Demographic/EEO answers are never inferred.",
+  "contact": {
+    "email": {"answer": "", "mode": "review"},
+    "phone": {"answer": "", "mode": "review"},
+    "linkedin": {"answer": "", "mode": "review"},
+    "portfolio": {"answer": "", "mode": "review"}
+  },
+  "work_authorization": {
+    "authorized_to_work_us": {"answer": null, "mode": "review"},
+    "requires_sponsorship": {"answer": null, "mode": "review"}
+  },
+  "education": {
+    "highest_completed_degree": {"answer": "", "mode": "review"},
+    "masters_in_progress": {"answer": null, "mode": "review"}
+  },
+  "eeo": {
+    "race_ethnicity": {"answer": null, "mode": "review"},
+    "gender": {"answer": null, "mode": "review"},
+    "veteran_status": {"answer": null, "mode": "review"},
+    "disability_status": {"answer": null, "mode": "review"}
+  },
+  "learned_answers": []
+}
