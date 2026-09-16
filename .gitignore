@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local runtime data
+data/*
+!data/.gitkeep
+logs/*
+!logs/.gitkeep
+browser_profile/
+
+# OAuth / secrets
+oauth/*
+!oauth/.gitkeep
+credentials.json
+token.json
+.env
+.env.*
+*.pem
+*.key
+
+# Personal/local configuration
+config.json
+config/candidate_answers.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
